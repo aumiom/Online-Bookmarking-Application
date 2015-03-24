@@ -1,0 +1,92 @@
+#menu {
+    background-color: #e8e8e8;
+   /* position: absolute;
+    top: 0;
+    left: 0;*/
+    width: 100%;
+    min-width: 1000px;
+    height: 24px;
+    z-index: 100;
+    border-bottom: solid 1px rgb(210, 210, 210);
+    text-transform: uppercase;
+    font-size: 0.88em;
+    line-height: 2;
+    position: relative;
+}
+
+#bmFrame {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*z-index: 50;*/
+    margin-top: 24px;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+#menu a {
+    margin: 3px;
+    border-left: solid 1px rgb(223, 221, 221);
+    padding: 0px 10px;
+    color: #7A7A7A;
+    text-decoration: none;
+}
+#menu a:hover {
+    color: #333333;
+}
+
+button {
+    margin: 0px;
+    padding: 0px 6px;
+    border: none;
+}
+
+#menuBar {
+   background-color: rgb(44, 44, 44);
+  margin: 0px;
+  display: none;
+  z-index: 100;
+  position: relative;
+  padding: 10px 5px;
+}
+
+.formLink {
+display: block;
+  text-align: center;
+  background-color: rgb(69, 69, 69);
+  height: 50px;
+  border: solid 1px rgb(69, 69, 74);
+  color: rgb(218, 218, 218);
+  text-decoration: none !important;
+  font-size: 25px;
+  line-height: 50px;
+}
+.formLink:hover {
+display: block;
+  text-align: center;
+  background-color: rgb(25, 25, 25);
+  height: 50px;
+  border: solid 1px rgb(69, 69, 74);
+  color: rgb(242, 242, 242);
+  text-decoration: none !important;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+form {
+    width: 300px;
+  margin: 10% auto;
+}
+
